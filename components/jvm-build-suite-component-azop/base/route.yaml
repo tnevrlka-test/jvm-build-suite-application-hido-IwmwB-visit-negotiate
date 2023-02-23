@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-azop
     app.kubernetes.io/part-of: jvm-build-suite-application-hido
-  name: jvm-build-suite-componentbqvt
+  name: jvm-build-suite-componentgcpf
   namespace: jvm-build-gvkp-tenant
 spec:
   port:
