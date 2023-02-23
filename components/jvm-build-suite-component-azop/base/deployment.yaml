@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-azop
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:014af10835f645cda1017736f0294a09
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:6a7823984f67f6309911b816a432af9a5c849604cf28a744346c64a6e0aa555b
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
